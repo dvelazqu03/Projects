@@ -1,7 +1,9 @@
-/*
-	Diego Velazquez
-	32101041
-*/
+
+Diego Velazquez
+April 30, 2023
+
+Intro:
+This project will require you to create a rudimentary mapping program in Java. Given a data set representing the roads and intersections in a specific geographic region, your program should be able to plot a map of the data and provide shortest path directions between any two arbitrary intersections
 
 This Project include the Graph, Edge and Node classes as well as other classes and the test files.
 
