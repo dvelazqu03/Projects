@@ -1,0 +1,91 @@
+/*
+	Diego Velazquez
+	32101041
+*/
+
+	/!\ A LOADING BAR WILL SHOW YOU YOUR PROGRESS AS THE PROGRAM EXECUTES
+
+In order to execute this program, you have to go to the directory containing the project and execute the following command line:
+> javac Main.java
+
+This is importe to execute correctly and allow you to pursue further testing.
+
+**Testing for the basic mapping and the shortest path
+
+*For the ur.txt file:
+> java Main ur.txt -show i1 i10
+
+Loading Data, please wait
+..............................
+Success!
+
+Shortest Path from i1 to i10: 
+i10 <- i11 <- i3 <- i1 <- *
+
+Showing Map Now...
+
+*For the monroe.txt file:
+> java Main monroe.txt -show i1 i10
+
+Loading Data, please wait
+...................................
+Success!
+
+Shortest Path from i1 to i10: 
+i10 <- i0 <- i1 <- *
+
+Showing Map Now...
+
+*For the nys.txt file:
+> java Main nys.txt -show i1 i10
+
+Loading Data, please wait
+..............................................................................................................
+Success!
+
+Shortest Path from i1 to i10: 
+i10 <- i9 <- i8 <- i7 <- i6 <- i5 <- i4 <- i3 <- i2 <- i1 <- *
+
+Showing Map Now...
+
+**Testing for the meridian map:
+**This was not tested with the nys.txt file as it took a lot of time to process.
+
+*For the ur.txt file:
+> java Main ur.txt -show i1 i10 -meridianmap
+
+Loading Data, please wait
+..............................
+Success!
+
+Shortest Path from i1 to i10: 
+i10 <- i11 <- i3 <- i1 <- *
+
+Processing, please wait
+........................................................................
+Done!
+
+Minimum Weight Spanning Tree: 
+[BURTON, ANDERSON, LATTIMORE, i71, i70, i73, i72, i75, LOVEJOY, i74, i77, i76, i79, i78, GOERGEN-ATHLETIC, LECHASE, i80, UHS, i82, WILSON-BRIDGE, i81, MELIORA-SOUTH, HOYT, i13, i15, i14, i17, i16, i19, i18, TUNNEL-MOREY, SUEB, WALLIS, SIMON, i20, WILMOT, i22, HOPEMAN, i21, i24, WILDER, i23, i26, i25, i28, i27, i29, HUTCH-UPPER, SPURRIER, i31, i30, i33, i32, ITS, i35, SAGE, i34, i37, i36, i39, i38, HUTCH-LOWER, TUNNEL-HOYT, i40, i42, i41, i44, B&L, i43, i45, i48, i47, GAVETT, i49, MELIORA-NORTH, HOEING, HARKNESS, i51, i50, i53, MOREY, i52, i55, i54, i57, i56, i59, i58, CSB, CROSBY, GOERGEN, i60, i62, OBRIEN, i61, i64, WILSON, i63, i66, HYLAN, i65, i68, i67, RETTNER, GLEASON-HALL, i69, i8, DEWEY, RUSH-RHEES]
+
+Showing Map Now...
+
+*For the monroe.txt file: THE PROCESS TAKES ~5 MINUTES TO FULLY COMPLETE
+> java Main monroe.txt -show i1 i10 -meridianmap
+
+Loading Data, please wait
+...................................
+Success!
+
+Shortest Path from i1 to i10: 
+i10 <- i0 <- i1 <- *
+
+Processing, please wait
+........................................
+Done!
+Minimum Weight Spanning Tree: 
+[VERY LONG Minimum Weight Spanning Tree]
+
+Showing Map Now...
+
+
